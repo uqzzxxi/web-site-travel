@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>еще страницы</title>
+	<style>
+*{
+  padding: 0; 
+  margin: 0;
+  box-sizing: border-box; 
+  font-family: 'Poppins', sans-serif; 
+  text-decoration: none; 
+  list-style: none; 
+  scroll-behavior: smooth;
+}
+:root{
+  --bg-color: #fff;
+  --text-color: #221314;
+  --second-color: #5a7184;
+  --main-color:#0000ff;
+  --big-font: 6rem;
+  --h2-font: 3rem;
+  --p-font: 1.1rem;
+}
+.destination-content { 
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, auto)); 
+  grid-gap: 2rem;
+  align-items: center; 
+  margin-top: 5rem;
+}
+.col-content {
+  position: relative;
+}
+.col-content img{
+  width: 100%; 
+  height: 500px; 
+  object-fit: cover; 
+  border-radius: 15px; 
+  filter: brightness(80%); 
+  transition: all .3s cubic-bezier(.495,.05,.55,.95); 
+  will-change: filter;
+}
+.col-content h5{ 
+  position: absolute; 
+  font-size: 22px; 
+  font-weight: 500;
+  color: var(--bg-color); 
+  left: 15px;
+  bottom: 60px;
+}
+.col-content p{ 
+  position: absolute;
+  font-size: 15px; 
+  color: var(--bg-color); 
+  left: 15px;
+  bottom: 30px;
+  latter-spacing:2px;
+}
+.col-content img:hover{ 
+  filter: brightness(100%) hue-rotate(45deg); 
+  transform: scale(1.04); 
+  cursor: pointer; 
+}
+	</style>
+</head>
+<body>
+  <section class="destination" id="destination">
+    <div class="destination-content">
+      <div class="col-content">
+        <img src="img/img-1.jpeg"> 
+        <h5>Maldive</h5>
+        <p>Conrad</p>
+      </div>
+
+      <div class="col-content">
+        <img src="img/img-2.jpeg">
+        <h5>India</h5>
+        <p>Taj Mahal</p>
+      </div>
+
+      <div class="col-content">
+        <img src="img/img-3.jpeg">
+        <h5>Indonesia</h5>
+        <p>Bali</p>
+      </div>
+
+      <div class="col-content">
+        <img src="img/img-4.jpeg">
+        <h5>Mexico</h5>
+        <p>Guanajuato</p>
+      </div>
+
+      <div class="col-content">
+        <img src="img/img-5.jpeg">
+        <h5>Peru</h5>
+        <p>Matchupichu</p>
+      </div>
+
+      <div class="col-content">
+        <img src="img/img-6.jpeg">
+        <h5>Thailand</h5>
+        <p>Chiang Mai</p>
+      </div>
+
+    </div>
+  </section>
+</body>
+</html>

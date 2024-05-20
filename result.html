@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Результаты поиска круизов</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/styleresult.css">
+</head>
+<body>
+    <a href="cruiz.html">
+    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="10" stroke="black" stroke-width="2" fill="none"/>
+        <path d="M12 6l-6 6 6 6" stroke="black" stroke-width="2" fill="none"/>
+        <path d="M14 6l-6 6 6 6" stroke="black" stroke-width="2" fill="none"/>
+    </svg>
+    </a>
+    <header>
+        <h1>Krýızdik izdeý nátıjeleri</h1>
+    </header>
+    <main>
+        <div class="cruise-item">
+            <img src="img/msc.jpg" alt="Круизный корабль">
+        <div class="cruise-details">
+            <h3>Astoria Grande</h3>
+            <p>Baǵyt: Sochı-Stambýl-Amasra-Samsýn-Trabzon-Sochı</p>
+            <p class="date-display"><i class="fas fa-calendar-alt"></i></p>
+            <p class="price">₸480 000</p>
+            <a href="cruiz1.html" class="select-button">Kaiytany tańdaý</a>
+        </div>
+    </div>
+
+     <div class="cruise-item">
+        <img src="img/msc3.jpg" alt="Круизный корабль">
+        <div class="cruise-details">
+            <h3>Royal Caribbean</h3>
+            <p>Baǵyt: Sochı-Sınop-Cheshme-Stambýl-Sochı</p>
+            <p class="date-display"><i class="fas fa-calendar-alt"></i></p>
+            <p class="price">₸695 000</p>
+            <a href="cruiz1.html" class="select-button">Kaiytany tańdaý </a>
+        </div>
+    </div>
+
+
+    <div class="cruise-item">
+        <img src="img/msc2.jpg" alt="Круизный корабль">
+        <div class="cruise-details">
+            <h3>Sirina</h3>
+            <p>Baǵyt: Sochı-Sınop-Cheshme-Stambýl-Sochı</p>
+            <p class="date-display"><i class="fas fa-calendar-alt"></i></p>
+            <p class="price">₸445 000</p>
+            <a href="cruiz1.html" class="select-button">Kaiytany tańdaý</a>
+        </div>
+    </div>
+    </main>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const params = new URLSearchParams(window.location.search);
+    const date = params.get('date');
+    const dateElements = document.querySelectorAll('.date-display');
+    dateElements.forEach(el => el.textContent = Дата: ${date}); 
+});
+</script>
+</body>
+</html>

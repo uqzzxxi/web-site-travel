@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>tau turlary</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style> 
+        .ms-product-card {
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .card-offer-slide {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .img-background {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .img-background img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .img-background:hover img {
+            transform: scale(1.05);
+        }
+
+        .card-slide-top {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .card-feature {
+            display: flex;
+            align-items: center;
+            color: #333;
+            font-size: 0.9rem;
+        }
+
+        .card-feature i {
+            color: gold;
+            margin-right: 5px;
+        }
+
+        .card-info-block {
+            padding: 15px;
+            background-color: white;
+        }
+
+        .card-title {
+        	font-weight: bold;
+            font-size: 1.2rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .card-type-price {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .price p {
+            color: green;
+            font-weight: bold;
+        }
+
+        .intro-info-tour p {
+            color: #666;
+            font-size: 0.9rem;
+            margin-top: 5px;
+        }
+
+        .card-button a {
+            text-decoration: none;
+            color: white;
+            background-color: #007bff;
+            padding: 10px 15px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .card-button a.quickview {
+            background-color: #28a745;
+        }
+
+        .card-button a:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html">
+	<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="10" stroke="black" stroke-width="2" fill="none"/>
+        <path d="M12 6l-6 6 6 6" stroke="black" stroke-width="2" fill="none"/>
+        <path d="M14 6l-6 6 6 6" stroke="black" stroke-width="2" fill="none"/>
+    </svg>
+    </a>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-lg-6 col-md-12 ms2_product ms-product-card">
+                <div class="card-offer-slide">
+                    <div class="img-background">
+                        <img src="img/tau1.jpg" class="img-responsive" title="Býtakov sarqyramasyna Trekkıng">
+                    </div>
+                    <div class="card-slide-top">
+                        <div class="card-feature"><i class="fas fa-star"></i> 9,5/10, Pikirler: 6</div>
+                    </div>
+                    <div class="card-info-block noise">
+                        <div class="card-title">Býtakov sarqyramasyna Trekkıng</div>
+                        <div class="card-type-price">
+                            <div>Trekkıng jáne shygu</div>
+                            <div class="price">
+                                <p>Baǵa jeke esepteledi</p>
+                            </div>
+                        </div>
+                        <div class="intro-info-tour">
+                            <div class="">
+                                <span>Uzaqtyǵy: 8 kún./ 7 kún.</span>
+                                <span><i class="far fa-clock"></i>1 kún</span>
+                            </div>
+                            <p>Ең үлкені 15 метрге жететін Бутаков сарқырамасы Алматы маңындағы Іле Алатауы шатқалында орналасқан. Шатқалдың әсем көріністері, таза ауа және жаздың ыстық күндеріндегі салқындық туристерді көптен бері қызықтырып келеді.</p>
+                        </div>
+                        <div class="card-button">
+                            <a href="brondau.html" class="button">BRONDAU</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 col-md-12 ms2_product ms-product-card">
+                <div class="card-offer-slide">
+                    <div class="img-background">
+                        <img src="img/tau2.jpg" class="img-responsive" title="Bogdanovıch muzdyǵyna kóterilý">
+                    </div>
+                    <div class="card-slide-top">
+                        <div class="card-feature"><i class="fas fa-star"></i> 10/10, Pikirler: 3</div>
+                    </div>
+                    <div class="card-info-block noise">
+                        <div class="card-title">Bogdanovıch muzdyǵyna kóterilý</div>
+                        <div class="card-type-price">
+                            <div>Trekkıng jáne shygu</div>
+                            <div class="price">
+                                <p>Baǵa jeke esepteledi</p>
+                            </div>
+                        </div>
+                        <div class="intro-info-tour">
+                            <div class="">
+                                <span>Uzaqtyǵy: 8 kún./ 7 kún.</span>
+                                <span><i class="far fa-clock"></i>1 kún.</span>
+                            </div>
+                            <p>Богданович мұздығы, мүмкін, үлкен Талғар асуынан оңтүстік-батысқа қарай Іле Алатауының Кіші Алматы сілемінде орналасқан Алматы қаласына ең жақын мұздық. Мұздықтың көру нүктесінен оның айналасындағы шыңдардың керемет көрінісі бар.</p>
+                        </div>
+                        <div class="card-button">
+                            <a href="brondau.html" class="button">BRONDAU</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 col-md-12 ms2_product ms-product-card">
+                <div class="card-offer-slide">
+                    <div class="img-background">
+                        <img src="img/tau3.jpg" class="img-responsive" title="Mánshúk Mámetova kóline Trekkıng">
+                    </div>
+                    <div class="card-slide-top">
+                        <div class="card-feature"><i class="fas fa-star"></i> 10/10, Pikirler: 1</div>
+                    </div>
+                    <div class="card-info-block noise">
+                        <div class="card-title">Mánshúk Mámetova kóline Trekkıng</div>
+                        <div class="card-type-price">
+                            <div>Trekkıng jáne shygu</div>
+                            <div class="price">
+                                <p>Baǵa jeke esepteledi</p>
+                            </div>
+                        </div>
+                        <div class="intro-info-tour">
+                            <div class="">
+                                <span>Uzaqtyǵy: 8 kún./ 7 kún.</span>
+                                <span><i class="far fa-clock"></i>1 kún.</span>
+                            </div>
+                            <p>Мәншүк Мәметова атындағы суық және жансыз көл теңіз деңгейінен 3600 метр биіктікте орналасқан. Еріген су 30 метр тереңдіктегі ыдыста жиналып, одан кішкене өзен ағып кетеді. Көл барлық жағынан ерекше әдемі тау шыңдарымен қоршалған.</p>
+                        </div>
+                        <div class="card-button">
+                            <a href="brondau.html" class="button">BRONDAU</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 col-md-12 ms2_product ms-product-card">
+                <div class="card-offer-slide">
+                    <div class="img-background">
+                        <img src="img/tau4.jpg" class="img-responsive" title="Jońǵarıa muzdyqtary men kólderine Trekkıng" style="text-decoration: bold;">
+                    </div>
+                    <div class="card-slide-top">
+                        <div class="card-feature"><i class="fas fa-star"></i> 9,3/10, Pikirler: 6</div>
+                    </div>
+                    <div class="card-info-block noise">
+                        <div class="card-title">Jońǵarıa muzdyqtary men kólderine Trekkıng</div>
+                        <div class="card-type-price">
+                            <div>Trekkıng jáne shygu</div>
+                            <div class="price">
+                                <p>Baǵa jeke esepteledi</p>
+                            </div>
+                        </div>
+                        <div class="intro-info-tour">
+                            <div class="">
+                                <span>Uzaqtyǵy: 8 kún./ 7 kún.</span>
+                                <span><i class="far fa-clock"></i>1 kún.</span>
+                            </div>
+                            <p>Жоңғар Алатауының орталық бөлігі, оның негізгі шатқалдары, мұздықтары, альпі шалғындары мен биік таулы көлдері бойынша бірегей бағыт. Бұл жерлер жабайы және туристерді кездестіру мүмкіндігі өте аз, бұл маршрутты өте экстремалды етеді.</p>
+                        </div>
+                        <div class="card-button">
+                            <a href="brondau.html" class="button">BRONDAU</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 col-md-12 ms2_product ms-product-card">
+                <div class="card-offer-slide">
+                    <div class="img-background">
+                        <img src="img/tau5.jpeg" height="600px" class="img-responsive" title="Shymbulaqqa shańǵy týry gıdpen">
+                    </div>
+                    <div class="card-slide-top">
+                        <div class="card-feature"><i class="fas fa-star"></i> 9,5/10, Pikirler: 8</div>
+                    </div>
+                    <div class="card-info-block noise">
+                        <div class="card-title">Shymbulaqqa shańǵy týry gıdpen</div>
+                        <div class="card-type-price">
+                            <div>Trekkıng jáne shygu</div>
+                            <div class="price">
+                                <p>Baǵa jeke esepteledi</p>
+                            </div>
+                        </div>
+                        <div class="intro-info-tour">
+                            <div class="">
+                                <span>Uzaqtyǵy: 8 kún./ 7 kún.</span>
+                                <span><i class="far fa-clock"></i>1 kún.</span>
+                            </div>
+                            <p>Еуропалық сапа стандарттарына жауап беретін Қазақстанның ең үздік және ауқымды курортында сырғанау күні. Бұл тур жаңадан бастаушыларға да, тәжірибелі фрирайдерлерге де жарамды, өйткені ол жақсы күтімді беткейлерде де, соқпақтардан тыс жерде де жүруді қамтиды.</p>
+                        </div>
+                        <div class="card-button">
+                            <a href="brondau.html" class="button">BRONDAU</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 col-md-12 ms2_product ms-product-card">
+                <div class="card-offer-slide">
+                    <div class="img-background">
+                        <img src="img/tau6.jpg" class="img-responsive" title="«Qazaqstan Grenlandıa» Trekkıngi">
+                    </div>
+                    <div class="card-slide-top">
+                        <div class="card-feature"><i class="fas fa-star"></i> 9/10, Pikirler: 2</div>
+                    </div>
+                    <div class="card-info-block noise">
+                        <div class="card-title">«Qazaqstan Grenlandıa» Trekkıngi</div>
+                        <div class="card-type-price">
+                            <div>Trekkıng jáne shygu</div>
+                            <div class="price">
+                                <p>Baǵa jeke esepteledi</p>
+                            </div>
+                        </div>
+                        <div class="intro-info-tour">
+                            <div class="">
+                                <span>Uzaqtyǵy: 8 kún./ 7 kún.</span>
+                                <span><i class="far fa-clock"></i>1 kún.</span>
+                            </div>
+                            <p>Сіздерді қазақстандық табиғаттың бірегей бұрышына – керемет Альпі пейзаждары, мореналық көлдер, мүк таулары мен әсерлі мұздықтар жасырылған Түрген шатқалының басына келуге шақырамыз. Адамның ізі жоқ, тек айналасындағы жабайы фауна және таңғажайып панорамалық көріністер.</p>
+                        </div>
+                        <div class="card-button">
+                            <a href="brondau.html" class="button">BRONDAU</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

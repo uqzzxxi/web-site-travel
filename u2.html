@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>париж</title>
+	<style>
+#gallery {
+    padding: 20px;
+    overflow-x: auto; 
+    white-space: nowrap;  
+}
+
+.image-gallery img {
+    width: auto;
+    height: 200px;  
+    border-radius: 8px;
+    display: inline-block;
+    margin-right: 10px;  
+    transition: transform 0.3s;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.1); 
+    cursor: pointer;
+}
+	</style>
+</head>
+<body>
+	<section id="gallery">
+    <h2>Галерея</h2>
+    <div class="image-gallery">
+        <img src="img/n1.jpg" alt="Круиз 1">
+        <img src="img/n2.jpg" alt="Круиз 2">
+        <img src="img/n3.jpg" alt="Круиз 3">
+        <img src="img/n4.jpg" alt="Круиз 4">
+        <img src="img/n5.jpg" alt="Круиз 5">
+        <img src="img/n6.jpg" alt="Круиз 6">
+    </div>
+    </section>
+
+    <div class="trailer">
+        <iframe id="trailer-video" width="1000" height="500" src="https://www.youtube.com/embed/snNgF6OrfKw?si=7XYcE0966_3FGSO-" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+</body>
+</html>

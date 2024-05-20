@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Круизные Туры</title>
+    <link rel="stylesheet" href="css/stylecruiz.css">
+</head>
+<body>
+    <a href="hotel.html">
+    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="10" stroke="black" stroke-width="2" fill="none"/>
+        <path d="M12 6l-6 6 6 6" stroke="black" stroke-width="2" fill="none"/>
+        <path d="M14 6l-6 6 6 6" stroke="black" stroke-width="2" fill="none"/>
+    </svg>
+    </a>
+    <header>
+        <h1>Teńiz Krýızderi</h1>
+        <nav>
+        <form class="search-form">
+            <div class="row">
+                <div class="input-group">
+                    <label for="departure">Jóneltý qalasy</label>
+                    <select id="departure">
+                        <option>Sochı</option>
+                        <option>Sankt-Peterbýrg</option>
+                        <option>Moskva</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="direction">Baǵyt</label>
+                    <select id="direction">
+                        <option>Kez kelgen baǵyt</option>
+                        <option>Karıb teńizi</option>
+                        <option>Jerorta teńizi</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-group">
+                    <label for="duration">Krýızdegi kúnder</label>
+                    <select id="duration">
+                        <option>Mańyzdy emes</option>
+                        <option>3 kúnge deıin</option>
+                        <option>4-8 kúnerge deıin</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="date">Jóneltý kúni</label>
+                    <input type="date" id="date">
+                </div>
+                <a href="result.html" class="select-button">IZDEU</a>
+            </div>
+        </form>
+    </nav>
+</header>
+    <section id="booking">
+        <h2>Krýızdi brondaý</h2>
+        <form id="booking-form">
+            <label for="cruise">Krýızdi tańdańyz:</label>
+            <select id="cruise" name="cruise">
+                <option value="caribbean">Karıb teńizi</option>
+                <option value="mediterranean">Jerorta teńizi</option>
+                <option value="norwegian">Norvegıalyq fordtar</option>
+            </select>
+            <label for="cabin-type">kaıýtanyn turi</label>
+            <select id="cabin-type" name="cabin-type">
+                <option value="inside">Ishki kaıýta</option>
+                <option value="outside">Terezesi bar kaıýta</option>
+                <option value="balcony">Terezesi joq kaıýta</option>
+                <option value="suite">LUX</option>
+            </select>
+            <label for="passengers">Jolaýshylar sany:</label>
+            <input type="number" id="passengers" name="passengers" min="1" max="30">
+            <label for="date">Kúni:</label>
+            <input type="date" id="date" name="date">
+            <button type="submit">BRONDAU</button>
+        </form>
+    </section>
+
+    <section id="gallery">
+    <h2>Галерея</h2>
+    <div class="image-gallery">
+        <img src="img/cruiz1.jpg" alt="Круиз 1">
+        <img src="img/cruiz2.jpg" alt="Круиз 2">
+        <img src="img/cruiz3.jpg" alt="Круиз 3">
+        <img src="img/cruiz4.jpeg" alt="Круиз 4">
+        <img src="img/cruiz5.jpg" alt="Круиз 5">
+        <img src="img/cruiz6.jpg" alt="Круиз 6">
+    </div>
+    </section>
+</body>
+</html>
